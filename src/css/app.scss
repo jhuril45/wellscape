@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 // app global css in SCSS form
 .auth-page {
   padding-top: 160px;
@@ -72,6 +73,7 @@
 
   .social-logins {
     margin-top: 30px;
+    margin-bottom: 30px;
     .q-btn {
       border-radius: 12px;
       width: 130px !important;

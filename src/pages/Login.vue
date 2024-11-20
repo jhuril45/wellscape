@@ -37,12 +37,12 @@
                 />
               </div>
               <div class="row">
-                <div class="col-6">
+                <div class="col-4">
                   <div class="form-input">
                     <q-checkbox v-model="form.remember" label="Remember me" />
                   </div>
                 </div>
-                <div class="col-6">
+                <div class="col-8">
                   <q-btn class="auth-btn2 full-width text-underline" color="primary" flat>
                     <u>Forgot Password?</u>
                   </q-btn>
@@ -83,7 +83,7 @@
               </q-btn>
             </div>
           </div>
-          <div class="row q-mt-xl  q-px-lg ">
+          <div class="row q-px-lg ">
             <div class="col-7 row items-center footer-label justify-center">
               Don't have an account?
             </div>

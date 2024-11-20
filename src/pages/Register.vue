@@ -93,10 +93,10 @@
             </div>
           </div>
           <div class="row q-mt-xl footer q-px-lg ">
-            <div class="col-7 row items-center footer-label justify-center">
+            <div class="col-8 row items-center footer-label justify-center">
               Already have an account?
             </div>
-            <div class="col-5 row justify-start">
+            <div class="col-4 row justify-start">
               <q-btn class="auth-btn3 text-underline" color="dark" flat to="/auth/login">
                 <u>Login</u>
               </q-btn>
