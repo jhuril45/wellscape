@@ -1,1 +1,138 @@
 // app global css in SCSS form
+.auth-page {
+  padding-top: 160px;
+  padding-bottom: 120px;
+}
+.auth-card {
+  border-radius: 20px;
+  padding: 40px 69px;
+  width: 590px;
+
+  .title {
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30.48px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+  }
+
+  .continue-label {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30.06px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+
+  .footer {
+    margin-top: 73px;
+    .footer-label {
+      font-family: Montserrat;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 30.06px;
+      text-align: left;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+    }
+  }
+
+  .login-btn {
+    border-radius: 12px;
+    font-size: 20px;
+    height: 45px;
+    width: 100%;
+  }
+
+  .auth-btn2 {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30.06px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+
+  .auth-btn3 {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30.06px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+  }
+
+  .social-logins {
+    margin-top: 30px;
+    .q-btn {
+      border-radius: 12px;
+      width: 130px !important;
+      height: 45px;
+    }
+  }
+}
+
+.form-input {
+  .q-field__control {
+    border-radius: 12px;
+    padding: 0;
+    background-color: #ECECEC;
+    border-color: #ECECEC !important;
+    border: 1px;
+    .q-field__native {
+      padding: 8px 30px;
+
+    }
+    &:before {
+      border: none;
+    }
+
+    input {
+      border-radius: 12px !important;
+      font-family: Montserrat;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 30.06px;
+      text-align: left;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+    }
+
+    .q-checkbox__label {
+      //styleName: Paragraph - Main/Regular;
+      font-family: Montserrat;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 30.06px;
+      text-align: left;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+
+    }
+  }
+
+  // .q-field--outlined.q-field--highlighted .q-field__control:after {
+  //   border-color: $positive;
+  //   border-width: 2px;
+  // }
+
+  .q-field--highlighted {
+    .q-field__control:after {
+      border-color: $positive !important;
+      border-width: 2px;
+    }
+  }
+
+
+  .q-checkbox__bg {
+    border-radius: 5px;
+  }
+}
