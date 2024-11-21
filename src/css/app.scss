@@ -18,7 +18,28 @@
     text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
+  }
 
+  .sub-title {
+    margin-top: 37px;
+    margin-bottom: 37px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30.06px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+
+  .reset-password-link {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30.06px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
   }
 
   .continue-label {
@@ -47,7 +68,7 @@
   .login-btn {
     border-radius: 12px;
     font-size: 20px;
-    height: 45px;
+    min-height: 45px !important;
     width: 100%;
   }
 

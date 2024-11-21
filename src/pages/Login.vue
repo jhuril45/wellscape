@@ -43,7 +43,7 @@
                   </div>
                 </div>
                 <div class="col-8">
-                  <q-btn class="auth-btn2 full-width text-underline" color="primary" flat>
+                  <q-btn class="auth-btn2 full-width text-underline" color="primary" flat to="/auth/forgot-password">
                     <u>Forgot Password?</u>
                   </q-btn>
                 </div>
